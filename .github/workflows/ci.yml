@@ -1,4 +1,4 @@
-name: CICD - Train & Save the model created
+name: CICD - Train & Save the model
 
 on:
   push:
