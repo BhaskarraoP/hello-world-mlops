@@ -31,7 +31,6 @@ jobs:
 
       - name: Train the model
         run: |
-           mkdir artifacts
            python train.py
            ls -la artifacts
 
@@ -40,4 +39,5 @@ jobs:
         with:
           name: ml-artifacts-${{ matrix.python }}-${{ github.run_id }}
           path: artifacts
+
 
